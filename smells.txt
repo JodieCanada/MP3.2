@@ -1,0 +1,12 @@
+QUESTION 1:
+This code smell is duplicated code. To refactor, these lines of code could be moved to a separate method that is then called in place of the duplicated code. The duplicated code is now in a method name PluginExisiting().
+
+QUESTION 3:
+This code smell is duplicated code. Two separate methods were used in four different instances in the code. To refactor the code smell, the two methods were extracted and placed in one method, which was then called in place of the two separate methods in the four instances. 
+
+QUESTION 4:
+To eliminate the repeated code segments, you could extract them and place them in a separate method and then call the method four times. 
+
+QUESTION 6:
+Code smells can be refactored by using the Extract Method which is placing repeated lines of code in a separate method. 
+
